@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --primary-color:rgb(238,75,43);
+    --white-color:#fff;
+    --black-color:#000;
+    --text-color:#333;
+
+}
+*{
+    box-sizing: inherit;  
+}
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+p{
+    font-size: 1.6rem;
+}
+/* responsive */
+.grid__full-width{
+    width: 100%;
+}
+.grid__row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+.grid__column-2{
+    padding-right: 5px;
+    padding-left: 5px;
+    width: 16.666%;
+}
+.grid__column-10{
+    padding-right: 5px;
+    padding-left: 5px;
+    width: 83.333%;
+}
+.grid__column-2-4{
+    padding-right: 5px;
+    padding-left: 5px;
+    width: 20%;
+}
+/*  */
+@keyframes FadeIn{
+    from{
+        opacity: 0;
+    } to{
+        opacity: 1;
+    }
+}
+/* button style */
+.btn:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.btn{
+    min-width: 142px;
+    height: 36px;
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 2px;
+    font-size: 1.5rem;
+    padding: 0;
+    outline: none;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn.btn--primary{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+.select-input{
+    height: 34px;
+    border-radius: 2px;
+    background-color: var(--white-color);
+    min-width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 12px;
+    position: relative;
+    z-index: 2;
+}
+.select-input-label{
+    color: var(--text-color);
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+.select-input a{
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--text-color);
+}
+.pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+.pagination-item{
+    margin: 0 10px;
+}
+.pagination-item__active{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+.pagination-item__active:hover{
+    opacity: 0.8;
+}
+.pagination-item__link{
+    display: block;
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: #939393;
+    min-width: 42px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.pagination-item__icon{
+    font-size: 1.6rem;
+}
+.home-product--pagination{
+    margin-top: 48px;
+    margin-bottom: 32px;
+}

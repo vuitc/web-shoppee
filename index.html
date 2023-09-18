@@ -1,0 +1,1005 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="grid wide">
+                <nav class="navbar hide-on-mobile-tablet">
+                    <ul class="lists">
+                        <li class="list-item separate">
+                            Vao cua hang tren ung dung
+                            <div class="header__qr">
+                                <img src="./assets/img/qrcode.png" alt="qr" class="header__qr-img">
+                                <div class="header__qr--apps">
+                                    <a href="#" class="qr-link">
+                                        <img src="./assets/img/googleplay.png" alt="play" class="qr-download-img">
+                                    </a>
+                                    <a href="#" class="qr-link">
+                                        <img src="./assets/img/appstore.png" alt="appstore" class="qr-download-img"> 
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-item">
+                           <span class="list-default">Ket noi</span> 
+                            <a href="#" class="header-icon"><i class="icon-link fab fa-facebook"></i></a>
+                            <a href="#" class="header-icon"><i class="icon-link fab fa-instagram"></i></a>
+                        </li>
+                    </ul>
+                    <ul class="lists">
+                        <li class="list-item list-item-notify">
+                            <a href="#" class="list-link"><i class="icon-link fas fa-bell"></i>Thong bao</a>
+                            <div class="notify">
+                                <header class="header-notify">
+                                    <h3>Thong bao moi nhan</h3>
+                                </header>
+                                <ul class="notify-lists">
+                                    <li class="notify-item notify-item--viewed">
+                                        <a href="#" class="notify-link">
+                                            <img src="./assets/img/p1.jpg" alt="" class="notify-img">
+                                            <div class="notify-info">
+                                                <span class="info-name">My pham chinh hang</span>
+                                                <span class="info-title">Mo ta my pham chinh hang</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <!--  -->
+                                    <li class="notify-item notify-item--viewed">
+                                        <a href="#" class="notify-link">
+                                            <img src="./assets/img/p2.jpg" alt="" class="notify-img">
+                                            <div class="notify-info">
+                                                <span class="info-name">My pham chinh hang</span>
+                                                <span class="info-title">Mo ta my pham chinh hang</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <!--  -->
+                                    <li class="notify-item notify-item--viewed">
+                                        <a href="#" class="notify-link">
+                                            <img src="./assets/img/p3.jpg" alt="" class="notify-img">
+                                            <div class="notify-info">
+                                                <span class="info-name">My pham chinh hang</span>
+                                                <span class="info-title">Mo ta my pham chinh hang</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <!--  -->
+                                    <li class="notify-item notify-item--viewed">
+                                        <a href="#" class="notify-link">
+                                            <img src="./assets/img/p4.jpg" alt="" class="notify-img">
+                                            <div class="notify-info">
+                                                <span class="info-name">My pham chinh hang</span>
+                                                <span class="info-title">Mo ta my pham chinh hang</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <!--  -->
+                                    <li class="notify-item notify-item--viewed">
+                                        <a href="#" class="notify-link">
+                                            <img src="./assets/img/p5.jpg" alt="" class="notify-img">
+                                            <div class="notify-info">
+                                                <span class="info-name">My pham chinh hang</span>
+                                                <span class="info-title">Mo ta my pham chinh hang</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <!--  -->
+                                </ul>
+                                <footer class="footer-notify">
+                                    <a href="#" class="notify-btn">Xem tat ca</a>
+                                </footer>
+                            </div>
+                        </li>
+                        <li class="list-item"><a href="#" class="list-link"><i class="icon-link far fa-question-circle"></i>Tro giup</a></li>
+                       <!-- Khi co tai khoan dang nhap -->
+                        <!-- <li class="list-item strong separate">Dang ky</li>
+                        <li class="list-item strong">Dang nhap</li> -->
+                        <li class="list-item list-user">
+                            <img src="./assets/img/cart.png" alt="">
+                            <span class="user-name">Anh Vu</span>
+                            <ul class="navbar-user">
+                                <li class="user-item">
+                                    <a href="#">Tai khoan cua toi</a>
+                                </li>
+                                <li class="user-item">
+                                    <a href="#">Dia chi cua toi</a>
+                                </li>
+                                <li class="user-item">
+                                    <a href="#">Don hang da mua</a>
+                                </li>
+                                <li class="user-item">
+                                    <a href="#">Thanh toan</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header-with-search">
+                    <label for="header-mobile__checkbox" class="header-mobile__search">
+                        <i class="header-mobile__icon fas fa-bars"></i>
+                    </label>
+                    <input type="checkbox" id="header-mobile__checkbox" hidden class="header-mobile__bar">
+                    <label for="header-mobile__checkbox" class="nav__overlay">
+                    </label>
+                    <nav class="nav__mobile">
+                        <ul class="nav__mobile-list">
+                            <li class="nav__mobile-item">
+                                <a href="#" class="nav__mobile-link">Home</a>
+                            </li>
+                            <li class="nav__mobile-item">
+                                <a href="#" class="nav__mobile-link">Services</a>
+                            </li>
+                            <li class="nav__mobile-item">
+                                <a href="#" class="nav__mobile-link">Helps</a>
+                            </li>
+                            <li class="nav__mobile-item">
+                                <a href="#" class="nav__mobile-link">Dang ki</a>
+                            </li>
+                            <li class="nav__mobile-item">
+                                <a href="#" class="nav__mobile-link">Dang nhap</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header__logo hide-on-mobile">
+                        <img src="./assets/img/d734f6291f072bb855371432da462d65.png" alt="" class="header__logo-img">
+                    </div>
+                    <div class="header__search">
+                        <div class="header-input-wrap">
+                            <input type="text" class="header__search-input" placeholder="Tim kiem san pham">
+                            <div class="header-input-history">
+                                <h3 class="header-history-heading">Lich su tim kiem</h3>
+                                <ul class="header-history-list">
+                                    <li class="header-history-item"><a href="#">Quan ao</a></li>
+                                    <li class="header-history-item"><a href="#">Giay dep</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="search-option hide-on-mobile">
+                            <span class="option-label">Trong Shop</span>
+                            <i class="label-icon fas fa-angle-down"></i>
+                            <ul class="search-option-down">
+                                <li class="header-option-item">
+                                    <span>Trong shop</span>
+                                    <i class="fas fa-check"></i>
+                                </li>
+                                <li class="header-option-item">
+                                    <span>Ngoai shop</span>
+                                    <i class="fas fa-check"></i>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="header-btn">
+                            <i class="header-btn-icon fas fa-search"></i>
+                        </button>
+                    </div>
+                    <div class="header__cart">
+                        <i class="header__cart-icon fas fa-shopping-cart"></i>
+                        <span class="header__card-buy">3</span>
+                        <!-- has card:header__cart-list--no-cart -->
+                        <div class="header__cart-list">
+                            <img src="./assets/img/cart.png" alt="" class="header__cart--no-cart">
+                            <span class="header__cart--no-cart-msg">Chua co san pham</span>
+                            <!-- continue co san pham -->
+                            <div class="header__cart-heading">San pham da them</div>
+                            <ul class="header__cart-ul">
+                                <li class="header__card-li">
+                                    <img src="./assets/img/cart.png" alt="" class="header__card-img">
+                                    <div class="header__card-info">
+                                        <div class="header__card-info-first">
+                                            <h5 class="header__card-first-name">Bo kem dac tri vung mat</h5>
+                                            <div class="header__card-first-wrap">
+                                                <span class="first-price">2.000.000d</span>
+                                                <span class="first-multiple">x</span>
+                                                <span class="first-quantity">2</span>
+                                            </div>
+                                        </div>
+                                        <div class="header__card-info_second">
+                                            <span class="second-title">Phan loai hang bac</span>
+                                            <a href="#" class="second-delete">Xoa</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <!--  -->
+                                <li class="header__card-li">
+                                    <img src="./assets/img/cart.png" alt="" class="header__card-img">
+                                    <div class="header__card-info">
+                                        <div class="header__card-info-first">
+                                            <h5 class="header__card-first-name">Bo kem dac tri vung mat</h5>
+                                            <div class="header__card-first-wrap">
+                                                <span class="first-price">2.000.000d</span>
+                                                <span class="first-multiple">x</span>
+                                                <span class="first-quantity">2</span>
+                                            </div>
+                                        </div>
+                                        <div class="header__card-info_second">
+                                            <span class="second-title">Phan loai hang bac</span>
+                                            <a href="#" class="second-delete">Xoa</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <!--  -->
+                                <li class="header__card-li">
+                                    <img src="./assets/img/cart.png" alt="" class="header__card-img">
+                                    <div class="header__card-info">
+                                        <div class="header__card-info-first">
+                                            <h5 class="header__card-first-name">Bo kem dac tri vung mat</h5>
+                                            <div class="header__card-first-wrap">
+                                                <span class="first-price">2.000.000d</span>
+                                                <span class="first-multiple">x</span>
+                                                <span class="first-quantity">2</span>
+                                            </div>
+                                        </div>
+                                        <div class="header__card-info_second">
+                                            <span class="second-title">Phan loai hang bac</span>
+                                            <a href="#" class="second-delete">Xoa</a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <button class="float-right btn btn--primary">Xem gio hang</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul class="header__sort-bar l-0">
+                <li class="header__sort-item"><a href="#" class="header__sort-link">Lien quan</a></li>
+                <li class="header__sort-item header__sort-item--active"><a href="#" class="header__sort-link">Moi nhat</a></li>
+                <li class="header__sort-item"><a href="#" class="header__sort-link">Ban chay</a></li>
+                <li class="header__sort-item"><a href="#" class="header__sort-link">Gia</a></li>
+            </ul>
+
+        </header>
+       
+        <div class="app__container">
+            <div class="grid wide">
+                <div class="row app__content">
+                    <div class="col l-2 m-0 c-0">
+                        <nav class="category">
+                            <h3 class="category__heading">
+                                <i class="fas fa-list-ul"></i>
+                                Danh muc
+                            </h3>
+                            <ul class="category-list">
+                                <li class="category-item category-item--active">
+                                    <a href="#" class="categogy-item-link">Trang diem mat</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="categogy-item-link">Trang diem moi</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="categogy-item-link">Trang diem mat</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col l-10 m-12 c-12">
+                        <div class="home-filter hide-on-mobile-tablet">
+                            <span class="home-filter-label">Sap xep theo</span>
+                            <button class="home-filter__btn btn">Pho bien</button>
+                            <button class="home-filter__btn btn btn--primary">Moi nhat</button>
+                            <button class="home-filter__btn btn">Ban chay</button>
+                            <div class="select-input">
+                                <span class="select-input-label">Gia</span>
+                                <i class="fas fa-angle-down"></i>
+                                <ul class="select-menu-input">
+                                    <li class="select-item-input">
+                                        <a href="#" class="select-link-input">Gia:tu thap den cao</a>
+                                    </li>
+                                    <li class="select-item-input">
+                                        <a href="#" class="select-link-input">Gia:tu cao den thap</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="home-page">
+                                <span class="home-page-number">
+                                    <span class="home-page-current">1</span>
+                                    /14                                 
+                                </span>
+                                <div class="page-control">
+                                    <a href="#" class="page-control-btn page-control-disable">
+                                        <i class="fas fa-angle-left"></i>
+                                    </a>
+                                    <a href="#" class="page-control-btn">
+                                        <i class="fas fa-angle-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- category mobile -->
+                        <nav class="mobile__category">
+                            <ul class="mobile__category-list">
+                                <li class="mobile__category-item">
+                                    <a href="#" class="mobile__category-link">Dung cu va thiet bi scan</a>
+                                </li>
+                                <li class="mobile__category-item">
+                                    <a href="#" class="mobile__category-link">Dung cu nha bep</a>
+                                </li>
+                                <li class="mobile__category-item">
+                                    <a href="#" class="mobile__category-link">May tinh va thiet bi ngoai vi</a>
+                                </li>
+                                <li class="mobile__category-item">
+                                    <a href="#" class="mobile__category-link">Kem chong nang</a>
+                                </li>
+                                <li class="mobile__category-item">
+                                    <a href="#" class="mobile__category-link">Dung cu va thiet bi scan</a>
+                                </li>
+                                <li class="mobile__category-item">
+                                    <a href="#" class="mobile__category-link">Dung cu nha bep</a>
+                                </li>
+                                <li class="mobile__category-item">
+                                    <a href="#" class="mobile__category-link">May tinh va thiet bi ngoai vi</a>
+                                </li>
+                                <li class="mobile__category-item">
+                                    <a href="#" class="mobile__category-link">Kem chong nang</a>
+                                </li>
+                                <li class="mobile__category-item">
+                                    <a href="#" class="mobile__category-link">Dung cu va thiet bi scan</a>
+                                </li>
+                                <li class="mobile__category-item">
+                                    <a href="#" class="mobile__category-link">Dung cu nha bep</a>
+                                </li>
+                                <li class="mobile__category-item">
+                                    <a href="#" class="mobile__category-link">May tinh va thiet bi ngoai vi</a>
+                                </li>
+                                <li class="mobile__category-item">
+                                    <a href="#" class="mobile__category-link">Kem chong nang</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="home-product">
+                            <div class="row">
+                                <!-- item 1 -->
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item-img" style="background-image:url(./assets/img/p3.jpg)">
+                                        </div>
+                                        <h4 class="home-product-item-name">
+                                            Highlands bị gửi đơn tố cáo vì nợ tiền mặt bằng gần 5 tháng ở TP.HCM
+                                        </h4>
+                                        <div class="home-product-item-price">
+                                            <span class="home-product-item-price-old">1.200.000d</span>
+                                            <span class="home-product-item-price-new">990.000d</span>
+                                        </div>
+                                        <div class="home-product-item-action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                            <i class="home-product-item__like-empty far fa-heart"></i>                                        
+                                            <i class="home-product-item__like-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__rating--gold fas fa-star"></i>
+                                                <i class="home-product-item__rating--gold fas fa-star"></i>
+                                                <i class="home-product-item__rating--gold fas fa-star"></i>
+                                                <i class="home-product-item__rating--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">
+                                                88 da ban
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__title">Nhat Ban</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>Yeu thich
+                                        </div>
+                                        <div class="home-product-item__sell-off">
+                                            <span class="home-product-item__percent">10%</span>
+                                            <span class="home-product-item__sell-off-label">Giam</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- item 1 -->
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item-img" style="background-image:url(./assets/img/p4.jpg)">
+                                        </div>
+                                        <h4 class="home-product-item-name">
+                                            Highlands bị gửi đơn tố cáo vì nợ tiền mặt bằng gần 5 tháng ở TP.HCM
+                                        </h4>
+                                        <div class="home-product-item-price">
+                                            <span class="home-product-item-price-old">1.200.000d</span>
+                                            <span class="home-product-item-price-new">990.000d</span>
+                                        </div>
+                                        <div class="home-product-item-action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                            <i class="home-product-item__like-empty far fa-heart"></i>                                        
+                                            <i class="home-product-item__like-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__rating--gold fas fa-star"></i>
+                                                <i class="home-product-item__rating--gold fas fa-star"></i>
+                                                <i class="home-product-item__rating--gold fas fa-star"></i>
+                                                <i class="home-product-item__rating--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">
+                                                88 da ban
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__title">Nhat Ban</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>Yeu thich
+                                        </div>
+                                        <div class="home-product-item__sell-off">
+                                            <span class="home-product-item__percent">10%</span>
+                                            <span class="home-product-item__sell-off-label">Giam</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- item 1 -->
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item-img" style="background-image:url(./assets/img/p5.jpg)">
+                                        </div>
+                                        <h4 class="home-product-item-name">
+                                            Highlands bị gửi đơn tố cáo vì nợ tiền mặt bằng gần 5 tháng ở TP.HCM
+                                        </h4>
+                                        <div class="home-product-item-price">
+                                            <span class="home-product-item-price-old">1.200.000d</span>
+                                            <span class="home-product-item-price-new">990.000d</span>
+                                        </div>
+                                        <div class="home-product-item-action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                            <i class="home-product-item__like-empty far fa-heart"></i>                                        
+                                            <i class="home-product-item__like-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__rating--gold fas fa-star"></i>
+                                                <i class="home-product-item__rating--gold fas fa-star"></i>
+                                                <i class="home-product-item__rating--gold fas fa-star"></i>
+                                                <i class="home-product-item__rating--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">
+                                                88 da ban
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__title">Nhat Ban</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>Yeu thich
+                                        </div>
+                                        <div class="home-product-item__sell-off">
+                                            <span class="home-product-item__percent">10%</span>
+                                            <span class="home-product-item__sell-off-label">Giam</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- item 1 -->
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item-img" style="background-image:url(./assets/img/p6.jpg)">
+                                        </div>
+                                        <h4 class="home-product-item-name">
+                                            Highlands bị gửi đơn tố cáo vì nợ tiền mặt bằng gần 5 tháng ở TP.HCM
+                                        </h4>
+                                        <div class="home-product-item-price">
+                                            <span class="home-product-item-price-old">1.200.000d</span>
+                                            <span class="home-product-item-price-new">990.000d</span>
+                                        </div>
+                                        <div class="home-product-item-action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                            <i class="home-product-item__like-empty far fa-heart"></i>                                        
+                                            <i class="home-product-item__like-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__rating--gold fas fa-star"></i>
+                                                <i class="home-product-item__rating--gold fas fa-star"></i>
+                                                <i class="home-product-item__rating--gold fas fa-star"></i>
+                                                <i class="home-product-item__rating--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">
+                                                88 da ban
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__title">Nhat Ban</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>Yeu thich
+                                        </div>
+                                        <div class="home-product-item__sell-off">
+                                            <span class="home-product-item__percent">10%</span>
+                                            <span class="home-product-item__sell-off-label">Giam</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- item 1 -->
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item-img" style="background-image:url(./assets/img/p7.jpg)">
+                                        </div>
+                                        <h4 class="home-product-item-name">
+                                            Highlands bị gửi đơn tố cáo vì nợ tiền mặt bằng gần 5 tháng ở TP.HCM
+                                        </h4>
+                                        <div class="home-product-item-price">
+                                            <span class="home-product-item-price-old">1.200.000d</span>
+                                            <span class="home-product-item-price-new">990.000d</span>
+                                        </div>
+                                        <div class="home-product-item-action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                            <i class="home-product-item__like-empty far fa-heart"></i>                                        
+                                            <i class="home-product-item__like-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__rating--gold fas fa-star"></i>
+                                                <i class="home-product-item__rating--gold fas fa-star"></i>
+                                                <i class="home-product-item__rating--gold fas fa-star"></i>
+                                                <i class="home-product-item__rating--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">
+                                                88 da ban
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__title">Nhat Ban</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>Yeu thich
+                                        </div>
+                                        <div class="home-product-item__sell-off">
+                                            <span class="home-product-item__percent">10%</span>
+                                            <span class="home-product-item__sell-off-label">Giam</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- item 1 -->
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item-img" style="background-image:url(./assets/img/p1.jpg)">
+                                        </div>
+                                        <h4 class="home-product-item-name">
+                                            Highlands bị gửi đơn tố cáo vì nợ tiền mặt bằng gần 5 tháng ở TP.HCM
+                                        </h4>
+                                        <div class="home-product-item-price">
+                                            <span class="home-product-item-price-old">1.200.000d</span>
+                                            <span class="home-product-item-price-new">990.000d</span>
+                                        </div>
+                                        <div class="home-product-item-action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                            <i class="home-product-item__like-empty far fa-heart"></i>                                        
+                                            <i class="home-product-item__like-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__rating--gold fas fa-star"></i>
+                                                <i class="home-product-item__rating--gold fas fa-star"></i>
+                                                <i class="home-product-item__rating--gold fas fa-star"></i>
+                                                <i class="home-product-item__rating--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">
+                                                88 da ban
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__title">Nhat Ban</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>Yeu thich
+                                        </div>
+                                        <div class="home-product-item__sell-off">
+                                            <span class="home-product-item__percent">10%</span>
+                                            <span class="home-product-item__sell-off-label">Giam</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- item 1 -->
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item-img" style="background-image:url(./assets/img/p2.jpg)">
+                                        </div>
+                                        <h4 class="home-product-item-name">
+                                            Highlands bị gửi đơn tố cáo vì nợ tiền mặt bằng gần 5 tháng ở TP.HCM
+                                        </h4>
+                                        <div class="home-product-item-price">
+                                            <span class="home-product-item-price-old">1.200.000d</span>
+                                            <span class="home-product-item-price-new">990.000d</span>
+                                        </div>
+                                        <div class="home-product-item-action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                            <i class="home-product-item__like-empty far fa-heart"></i>                                        
+                                            <i class="home-product-item__like-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__rating--gold fas fa-star"></i>
+                                                <i class="home-product-item__rating--gold fas fa-star"></i>
+                                                <i class="home-product-item__rating--gold fas fa-star"></i>
+                                                <i class="home-product-item__rating--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">
+                                                88 da ban
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__title">Nhat Ban</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>Yeu thich
+                                        </div>
+                                        <div class="home-product-item__sell-off">
+                                            <span class="home-product-item__percent">10%</span>
+                                            <span class="home-product-item__sell-off-label">Giam</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- item 1 -->
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item-img" style="background-image:url(./assets/img/p3.jpg)">
+                                        </div>
+                                        <h4 class="home-product-item-name">
+                                            Highlands bị gửi đơn tố cáo vì nợ tiền mặt bằng gần 5 tháng ở TP.HCM
+                                        </h4>
+                                        <div class="home-product-item-price">
+                                            <span class="home-product-item-price-old">1.200.000d</span>
+                                            <span class="home-product-item-price-new">990.000d</span>
+                                        </div>
+                                        <div class="home-product-item-action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                            <i class="home-product-item__like-empty far fa-heart"></i>                                        
+                                            <i class="home-product-item__like-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__rating--gold fas fa-star"></i>
+                                                <i class="home-product-item__rating--gold fas fa-star"></i>
+                                                <i class="home-product-item__rating--gold fas fa-star"></i>
+                                                <i class="home-product-item__rating--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">
+                                                88 da ban
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__title">Nhat Ban</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>Yeu thich
+                                        </div>
+                                        <div class="home-product-item__sell-off">
+                                            <span class="home-product-item__percent">10%</span>
+                                            <span class="home-product-item__sell-off-label">Giam</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- item 1 -->
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item-img" style="background-image:url(./assets/img/p4.jpg)">
+                                        </div>
+                                        <h4 class="home-product-item-name">
+                                            Highlands bị gửi đơn tố cáo vì nợ tiền mặt bằng gần 5 tháng ở TP.HCM
+                                        </h4>
+                                        <div class="home-product-item-price">
+                                            <span class="home-product-item-price-old">1.200.000d</span>
+                                            <span class="home-product-item-price-new">990.000d</span>
+                                        </div>
+                                        <div class="home-product-item-action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                            <i class="home-product-item__like-empty far fa-heart"></i>                                        
+                                            <i class="home-product-item__like-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__rating--gold fas fa-star"></i>
+                                                <i class="home-product-item__rating--gold fas fa-star"></i>
+                                                <i class="home-product-item__rating--gold fas fa-star"></i>
+                                                <i class="home-product-item__rating--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">
+                                                88 da ban
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__title">Nhat Ban</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>Yeu thich
+                                        </div>
+                                        <div class="home-product-item__sell-off">
+                                            <span class="home-product-item__percent">10%</span>
+                                            <span class="home-product-item__sell-off-label">Giam</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- item 1 -->
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item-img" style="background-image:url(./assets/img/p5.jpg)">
+                                        </div>
+                                        <h4 class="home-product-item-name">
+                                            Highlands bị gửi đơn tố cáo vì nợ tiền mặt bằng gần 5 tháng ở TP.HCM
+                                        </h4>
+                                        <div class="home-product-item-price">
+                                            <span class="home-product-item-price-old">1.200.000d</span>
+                                            <span class="home-product-item-price-new">990.000d</span>
+                                        </div>
+                                        <div class="home-product-item-action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                            <i class="home-product-item__like-empty far fa-heart"></i>                                        
+                                            <i class="home-product-item__like-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__rating--gold fas fa-star"></i>
+                                                <i class="home-product-item__rating--gold fas fa-star"></i>
+                                                <i class="home-product-item__rating--gold fas fa-star"></i>
+                                                <i class="home-product-item__rating--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">
+                                                88 da ban
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__title">Nhat Ban</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>Yeu thich
+                                        </div>
+                                        <div class="home-product-item__sell-off">
+                                            <span class="home-product-item__percent">10%</span>
+                                            <span class="home-product-item__sell-off-label">Giam</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- end item 1 -->
+                            </div>
+                        </div>
+                        <ul class="pagination home-product--pagination">
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">
+                                    <i class="pagination-item__icon fas fa-angle-left"></i>
+                                </a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link pagination-item__active">1</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">2</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">3</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">4</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">5</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">...</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">14</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">
+                                    <i class="pagination-item__icon fas fa-angle-right"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-2-4 m-4 c-6">
+                        <h3 class="footer__heading">Cham soc khach hang</h3>
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">Trung tam tro giup</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">Tick Id Mall</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">Huong dan mua hang</a>
+                            </li>                                                       
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-4 c-6">
+                        <h3 class="footer__heading">Gioi thieu</h3>
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">Trung tam tro giup</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">Tuyen dung</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">Dieu khoan</a>
+                            </li>                                                     
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-4 c-6">
+                        <h3 class="footer__heading">Danh muc</h3>
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">Trang diem</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">My pham</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">Mua ban</a>
+                            </li>                                                     
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-4 c-6">
+                        <h3 class="footer__heading">Theo doi chung toi tren</h3>
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">
+                                    <i class="footer__link-icon fab fa-facebook"></i>
+                                    Facebook
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">
+                                    <i class="footer__link-icon fab fa-instagram"></i>
+                                    Instagram
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">
+                                    <i class="footer__link-icon fab fa-linkedin"></i>
+                                    LinkedId
+                                </a>
+                            </li>                                                   
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-4 c-6">
+                        <h3 class="footer__heading">Vao cua hang tren ung dung</h3>
+                        <div class="footer__download">
+                            <img src="./assets/img/qrcode.png" alt="" class="footer__download-qr">
+                            <div class="footer__download-app">
+                                <a href="" class="footer__download-app-link">
+                                    <img src="./assets/img/googleplay.png" alt="" class="footer__download-app-img">
+                                </a>
+                                <a href="" class="footer__download-app-link">
+                                    <img src="./assets/img/appstore.png" alt="" class="footer__download-app-img">
+                                </a>                              
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="footer__bottom">
+            <div class="grid wide">
+                <p class="footer__copyright">2015-Ban quyen thuoc cong ty MyCV</p>
+            </div>
+        </div>
+    </div>
+    <!-- modal -->
+    <!-- <div class="modal">
+        <div class="modal__overlay">
+
+        </div>
+        <div class="modal__body"> -->
+        <!-- form -->
+            <!-- <div class="auth-form">
+                <div class="auth-form__container">
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading">Dang ki</h3>
+                        <span class="auth-form__switch-btn">Dang nhap</span>
+                    </div>
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" placeholder="Nhap email cua ban">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Password cua ban">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Nhap lai mat khau">
+                        </div>
+                    </div>
+                    
+                    <div class="auth-form__aside">
+                        <p class="auth-form__policy">Bang viec dang ki, ban da dong y shoppee ve
+                            <a href="#" class="auth-form__policy-link">Dieu khoan dich vu</a>$
+                            <a href="#" class="auth-form__policy-link">Chinh sach bao mat</a>
+                        </p>
+                    </div>
+                    
+                    <div class="auth-form__controls">
+                        <button class="btn">TRO LAI</button>
+                        <button class="btn btn--primary">DANG KI</button>
+                    </div>
+                </div>
+               
+                <div class="auth-form__socials">
+                    <a href="#" class="auth-form__socials--facebook btn btn--with-icon">
+                        <i class="auth-form__socials--icon fa-brands fa-facebook-square"></i>
+                        <span class="auth-form__socials--title">
+                            Ket noi facebook
+                        </span>
+                    </a>
+                    <a href="#" class="auth-form__socials--google btn btn--with-icon">
+                        <i class="auth-form__socials--icon fa-brands fa-google"></i>
+                        <span class="auth-form__socials--title">
+                            Ket noi google
+                        </span>
+                    </a>
+                </div>
+            </div> -->
+        <!-- login form -->
+        <!-- <div class="auth-form">
+            <div class="auth-form__container">
+                <div class="auth-form__header">
+                    <h3 class="auth-form__heading">Dang nhap</h3>
+                    <span class="auth-form__switch-btn">Dang ki</span>
+                </div>
+                <div class="auth-form__form">
+                    <div class="auth-form__group">
+                        <input type="text" class="auth-form__input" placeholder="Nhap email cua ban">
+                    </div>
+                    <div class="auth-form__group">
+                        <input type="password" class="auth-form__input" placeholder="Password cua ban">
+                    </div>
+                </div>
+                
+                <div class="auth-form__aside">
+                   <div class="auth-form__help">
+                       <a href="" class="auth-form__help-link">Quen mat khau</a>
+                       <span class="auth-form__help-separate"></span>
+                       <a href="" class="auth-form__help-link">Can tro giup</a>
+                   </div>
+                </div>
+               
+                <div class="auth-form__controls">
+                    <button class="btn">TRO LAI</button>
+                    <button class="btn btn--primary">DANG NHAP</button>
+                </div>
+            </div>
+          
+            <div class="auth-form__socials">
+                <a href="#" class="auth-form__socials--facebook btn btn--with-icon">
+                    <i class="auth-form__socials--icon fa-brands fa-facebook-square"></i>
+                    <span class="auth-form__socials--title">
+                        Ket noi facebook
+                    </span>
+                </a>
+                <a href="#" class="auth-form__socials--google btn btn--with-icon">
+                    <i class="auth-form__socials--icon fa-brands fa-google"></i>
+                    <span class="auth-form__socials--title">
+                        Ket noi google
+                    </span>
+                </a>
+            </div>
+        </div> -->
+        <!-- </div>
+    </div> -->
+</body>
+</html>

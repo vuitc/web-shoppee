@@ -1,0 +1,83 @@
+/* Mobile and Tablet */
+@media (max-width:1023px){
+    .hide-on-mobile-tablet{
+        display: none;
+    }
+    .header{
+        height: 80px;
+        position: fixed;
+        z-index: 10;
+        width: 100%;
+    }
+    .header__card-buy {
+        right: -12px;
+    }
+    .header__cart {
+        width: 70px;
+        text-align: right;
+    }
+    .header__cart-list{
+        position: fixed;
+        top: 80px;
+        right: 0;
+        width: 100%;
+    }
+    .app__container{
+        margin-top: 100px;
+    }
+    .header__sort-bar{
+        display: flex;
+    }
+    .mobile__category {
+        display: block;
+    }
+}
+/* Tablet  */
+@media(min-width:740px) and (max-width:1023px){
+    .hide-on-tablet{
+        display: none;
+    }
+}
+/* mobile */
+@media (max-width:739px){
+    .hide-on-mobile{
+        display: none;
+    }   
+    .header__search{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .header__cart{
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+    .header-mobile__search{
+        display: block;
+    }
+    .header-mobile__bar:checked ~ .nav__overlay{
+        display: block
+    }
+    .header-mobile__bar:checked ~ .nav__mobile{
+        display: block
+    }
+    .pagination-item{
+        margin-left: 1px;
+    }
+    .pagination-item__link{
+        min-width: 30px;
+        font-size: 1.3rem;
+    }
+    .footer{
+        padding-left: 8px;
+    }
+    .app__container{
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+    .header-input-history{
+        width: 110%;
+    }
+    .header-btn{
+        width: 40px;
+    }
+}
